@@ -1,0 +1,214 @@
+2022-07-19 11:56:21,690 INFO    MainThread:7824 [internal.py:wandb_internal():90] W&B internal server running at pid: 7824, started at: 2022-07-19 11:56:21.687362
+2022-07-19 11:56:21,693 INFO    WriterThread:7824 [datastore.py:open_for_write():75] open: d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\run-butgnxaw.wandb
+2022-07-19 11:56:21,695 DEBUG   SenderThread:7824 [sender.py:send():236] send: header
+2022-07-19 11:56:21,695 DEBUG   SenderThread:7824 [sender.py:send():236] send: run
+2022-07-19 11:56:22,126 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: check_version
+2022-07-19 11:56:22,131 INFO    SenderThread:7824 [dir_watcher.py:__init__():216] watching files in: d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\files
+2022-07-19 11:56:22,133 INFO    SenderThread:7824 [sender.py:_start_run_threads():815] run started: butgnxaw with start time 1658211980
+2022-07-19 11:56:22,133 DEBUG   SenderThread:7824 [sender.py:send():236] send: summary
+2022-07-19 11:56:22,133 INFO    SenderThread:7824 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-19 11:56:22,133 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: check_version
+2022-07-19 11:56:22,619 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: run_start
+2022-07-19 11:56:23,025 DEBUG   HandlerThread:7824 [meta.py:__init__():35] meta init
+2022-07-19 11:56:23,025 DEBUG   HandlerThread:7824 [meta.py:__init__():49] meta init done
+2022-07-19 11:56:23,025 DEBUG   HandlerThread:7824 [meta.py:probe():209] probe
+2022-07-19 11:56:23,042 DEBUG   HandlerThread:7824 [git.py:repo():29] git repository is invalid
+2022-07-19 11:56:23,042 DEBUG   HandlerThread:7824 [meta.py:_save_pip():53] save pip
+2022-07-19 11:56:23,047 DEBUG   HandlerThread:7824 [meta.py:_save_pip():67] save pip done
+2022-07-19 11:56:23,047 DEBUG   HandlerThread:7824 [meta.py:_save_conda():74] save conda
+2022-07-19 11:56:23,145 INFO    Thread-11 :7824 [dir_watcher.py:_on_file_created():269] file/dir created: d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\files\wandb-summary.json
+2022-07-19 11:56:23,145 INFO    Thread-11 :7824 [dir_watcher.py:_on_file_created():269] file/dir created: d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\files\conda-environment.yaml
+2022-07-19 11:56:23,145 INFO    Thread-11 :7824 [dir_watcher.py:_on_file_created():269] file/dir created: d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\files\requirements.txt
+2022-07-19 11:56:25,536 DEBUG   HandlerThread:7824 [meta.py:_save_conda():84] save conda done
+2022-07-19 11:56:25,536 DEBUG   HandlerThread:7824 [meta.py:probe():247] probe done
+2022-07-19 11:56:25,570 DEBUG   SenderThread:7824 [sender.py:send():236] send: files
+2022-07-19 11:56:25,571 INFO    SenderThread:7824 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2022-07-19 11:56:25,581 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 11:56:25,582 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 11:56:25,590 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: pause
+2022-07-19 11:56:25,590 INFO    HandlerThread:7824 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-19 11:56:25,921 DEBUG   SenderThread:7824 [sender.py:send():236] send: telemetry
+2022-07-19 11:56:25,921 DEBUG   SenderThread:7824 [sender.py:send():236] send: stats
+2022-07-19 11:56:26,164 INFO    Thread-11 :7824 [dir_watcher.py:_on_file_modified():286] file/dir modified: d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\files\conda-environment.yaml
+2022-07-19 11:56:26,164 INFO    Thread-11 :7824 [dir_watcher.py:_on_file_created():269] file/dir created: d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\files\output.log
+2022-07-19 11:56:26,164 INFO    Thread-11 :7824 [dir_watcher.py:_on_file_created():269] file/dir created: d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\files\wandb-metadata.json
+2022-07-19 11:56:26,637 INFO    Thread-15 :7824 [upload_job.py:push():138] Uploaded file C:\Users\SINGHS~1\AppData\Local\Temp\tmp6dlr9n7swandb\21fuq94g-wandb-metadata.json
+2022-07-19 11:56:40,929 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 11:56:40,929 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 11:56:53,373 INFO    Thread-11 :7824 [dir_watcher.py:_on_file_modified():286] file/dir modified: d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\files\config.yaml
+2022-07-19 11:56:56,289 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 11:56:56,289 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 11:57:11,671 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 11:57:11,671 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 11:57:27,046 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 11:57:27,046 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 11:57:42,436 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 11:57:42,436 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 11:57:57,827 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 11:57:57,827 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 11:58:13,186 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 11:58:13,186 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 11:58:28,553 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 11:58:28,553 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 11:58:43,935 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 11:58:43,935 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 11:58:59,349 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 11:58:59,349 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 11:59:14,723 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 11:59:14,723 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 11:59:30,099 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 11:59:30,099 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 11:59:45,437 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 11:59:45,437 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:00:00,808 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:00:00,808 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:00:16,191 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:00:16,191 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:00:31,551 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:00:31,551 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:00:46,933 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:00:46,933 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:01:02,300 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:01:02,300 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:01:17,691 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:01:17,691 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:01:33,081 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:01:33,081 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:01:48,424 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:01:48,424 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:02:03,785 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:02:03,785 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:02:19,152 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:02:19,152 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:02:34,525 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:02:34,527 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:02:49,909 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:02:49,909 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:03:05,283 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:03:05,283 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:03:20,672 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:03:20,672 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:03:36,040 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:03:36,040 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:03:51,422 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:03:51,422 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:04:06,828 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:04:06,828 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:04:22,203 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:04:22,203 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:04:38,367 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:04:38,367 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:04:53,804 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:04:53,804 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:05:09,295 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:05:09,295 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:05:24,670 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:05:24,670 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:05:40,041 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:05:40,041 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:05:55,427 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:05:55,427 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:06:10,794 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:06:10,794 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:06:26,185 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:06:26,185 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:06:41,568 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:06:41,568 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:06:56,987 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:06:56,987 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:07:12,396 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:07:12,396 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:07:27,780 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:07:27,780 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:07:43,196 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:07:43,196 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:07:58,582 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:07:58,582 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:08:13,980 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:08:13,980 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:08:29,380 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:08:29,380 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:08:44,751 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:08:44,751 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:09:00,154 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:09:00,154 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:09:15,536 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:09:15,536 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:09:30,931 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:09:30,931 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:09:46,309 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:09:46,309 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:10:01,681 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:10:01,681 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:10:17,087 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:10:17,087 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:10:32,470 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:10:32,470 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:10:47,841 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:10:47,841 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:11:03,245 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:11:03,245 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:11:18,602 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:11:18,602 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:11:33,961 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:11:33,961 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:11:49,374 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:11:49,374 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:12:04,735 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:12:04,735 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:12:20,509 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:12:20,509 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:12:35,879 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:12:35,879 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:12:51,240 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:12:51,240 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:13:06,647 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:13:06,647 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:13:22,041 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:13:22,041 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:13:37,404 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:13:37,404 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:13:52,823 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:13:52,823 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:14:08,254 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:14:08,254 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:14:23,633 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:14:23,633 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:14:39,017 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:14:39,017 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:14:54,377 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:14:54,377 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:15:09,751 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:15:09,751 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:15:25,116 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:15:25,116 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:15:40,505 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:15:40,505 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:15:55,874 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:15:55,874 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:16:11,247 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:16:11,247 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:16:26,641 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:16:26,641 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:16:42,033 DEBUG   HandlerThread:7824 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-19 12:16:42,033 DEBUG   SenderThread:7824 [sender.py:send_request():250] send_request: stop_status
+2022-07-19 12:16:46,749 WARNING MainThread:7824 [internal.py:is_dead():387] Internal process exiting, parent pid 11240 disappeared
+2022-07-19 12:16:46,749 ERROR   MainThread:7824 [internal.py:wandb_internal():149] Internal process shutdown.
+2022-07-19 12:16:46,931 INFO    WriterThread:7824 [datastore.py:close():279] close: d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\run-butgnxaw.wandb
+2022-07-19 12:16:47,107 INFO    HandlerThread:7824 [handler.py:finish():806] shutting down handler
+2022-07-19 12:16:47,442 INFO    SenderThread:7824 [sender.py:finish():1114] shutting down sender
+2022-07-19 12:16:47,442 INFO    SenderThread:7824 [dir_watcher.py:finish():353] shutting down directory watcher
+2022-07-19 12:16:48,276 INFO    SenderThread:7824 [dir_watcher.py:finish():383] scan: d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\files
+2022-07-19 12:16:48,276 INFO    SenderThread:7824 [dir_watcher.py:finish():397] scan save: d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\files\conda-environment.yaml conda-environment.yaml
+2022-07-19 12:16:48,276 INFO    SenderThread:7824 [dir_watcher.py:finish():397] scan save: d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\files\config.yaml config.yaml
+2022-07-19 12:16:48,276 INFO    SenderThread:7824 [dir_watcher.py:finish():397] scan save: d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\files\output.log output.log
+2022-07-19 12:16:48,276 INFO    SenderThread:7824 [dir_watcher.py:finish():397] scan save: d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\files\requirements.txt requirements.txt
+2022-07-19 12:16:48,276 INFO    SenderThread:7824 [dir_watcher.py:finish():397] scan save: d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\files\wandb-metadata.json wandb-metadata.json
+2022-07-19 12:16:48,276 INFO    SenderThread:7824 [dir_watcher.py:finish():397] scan save: d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\files\wandb-summary.json wandb-summary.json
+2022-07-19 12:16:48,276 INFO    SenderThread:7824 [file_pusher.py:finish():171] shutting down file pusher
+2022-07-19 12:16:48,276 INFO    SenderThread:7824 [file_pusher.py:join():176] waiting for file pusher
+2022-07-19 12:16:49,247 INFO    Thread-16 :7824 [upload_job.py:push():138] Uploaded file d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\files\conda-environment.yaml
+2022-07-19 12:16:49,262 INFO    Thread-18 :7824 [upload_job.py:push():138] Uploaded file d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\files\requirements.txt
+2022-07-19 12:16:49,309 INFO    Thread-17 :7824 [upload_job.py:push():138] Uploaded file d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\files\config.yaml
+2022-07-19 12:16:49,325 INFO    Thread-19 :7824 [upload_job.py:push():138] Uploaded file d:\potatodiesease\wandb\run-20220719_115620-butgnxaw\files\wandb-summary.json
+2022-07-19 12:16:50,186 INFO    MainThread:7824 [internal.py:handle_exit():80] Internal process exited

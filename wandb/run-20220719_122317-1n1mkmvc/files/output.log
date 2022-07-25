@@ -1,0 +1,7 @@
+
+Num GPUs Available:  1
+WARNING:tensorflow:From C:\Users\SINGH SAAB\AppData\Local\Temp\ipykernel_10816\2398065533.py:1: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+Num GPUs Available:  1
+/device:GPU:0

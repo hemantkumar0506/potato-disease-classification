@@ -1,0 +1,17 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-07-19T06:26:23.025425",
+    "startedAt": "2022-07-19T06:26:20.690029",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "LAPTOP-O9IJFHCO",
+    "username": "SINGH SAAB",
+    "executable": "c:\\Users\\SINGH SAAB\\anaconda3\\envs\\padicl\\python.exe"
+}
