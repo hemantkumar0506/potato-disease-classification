@@ -26,7 +26,7 @@ This is a potato disease classification app which predicts potato leaf disease.
 ## Motivation
 What to do when you are at your village and know farmers facing really big problem to address potato disease in early stage which hugely affect potato yield? I started to learn Machine Learning/ Deep Learning to get most out of it. I came to know mathematics behind all supervised models. Finally it is important to work on application (real world application) to actually make a difference.
 
-## Installation(#installation)
+## Installation
 
 ### Setup for Python:
 
