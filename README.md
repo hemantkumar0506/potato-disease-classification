@@ -3,25 +3,28 @@
 ## Table of Content
   * [Demo](#demo)
   * [Overview](#overview)
+  * [Motivation](#motivation)
   * [Installation](#installation)
-  * [Deploying the TF Model (.h5) on GCP](#Deploying the TF Model (.h5) on GCP)
+  * [Deploying the TF Model on GCP](#deploying-the-TF-Model-(.h5)-on-GCP)
   * [Directory Tree](#directory-tree)
   * [Technologies Used](#technologies-used)
   * [About Me](#about-me)
   * [Links](#links)
   * [Skills](#skills)
+  * [Bug / Feature Request](#bug---feature-request)
+  * [Future scope of project](#future-scope)
   * [License](#license)
+  * [Acknowledgements](#acknowledgements)
 
 
 ## Demo
-Link: [https://flight-price-prediction-webui.herokuapp.com/](https://flight-price-prediction-webui.herokuapp.com/)
-
-[![](https://i.imgur.com/axcQn0y.png)](https://flight-price-prediction-webui.herokuapp.com/)
-
-[![](https://i.imgur.com/BFERBOA.png)](https://flight-price-prediction-webui.herokuapp.com/)
+Link: https://user-images.githubusercontent.com/22980959/181022984-dfb79f1b-9681-4b91-bcb9-5db04da26fe6.mp4
 
 ## Overview
 This is a potato disease classification app which predicts potato leaf disease.
+
+## Motivation
+What to do when you are at your village and know farmers facing really big problem to address potato disease in early stage which hugely affect potato yield? I started to learn Machine Learning/ Deep Learning to get most out of it. I came to know mathematics behind all supervised models. Finally it is important to work on application (real world application) to actually make a difference.
 
 ## Installation(#installation)
 
@@ -246,6 +249,16 @@ Machine Learning Expert | I wish to do connect & collaborate together with the b
 ## 🛠 Skills
 Python, TensorFlow, numpy, pandas, PyTorch, Flask, Docker, MLOps, Fastapi, Google Cloud Platform, scikit-learn, Weight&Bias, ApacheSpark, SQL,XGBoost ...
 
+## Bug / Feature Request
+
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an [issue](https://github.com/hemantkumar0506/potato-disease-classification/issues) here by including your search query and the expected result
+
+## Future Scope
+
+* Use transfer learning
+* website frontend
+* Create fully functional android/ios app
+
 
 ## License
 
@@ -265,4 +278,6 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
+## Acknowledgements
 
+ - [Potato Disease Classification](https://codebasics.io/) - This project wouldn't have been possible without this guided project. It saved my enormous amount of time to craeting synthesis data. A huge shout-out to its creator [Dhaval Patel](https://www.linkedin.com/in/dhavalsays/).
