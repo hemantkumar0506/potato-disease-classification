@@ -280,4 +280,4 @@ limitations under the License.
 
 ## Acknowledgements
 
- - [Potato Disease Classification](https://codebasics.io/) - This project wouldn't have been possible without this guided project. It saved my enormous amount of time to craeting synthesis data. A huge shout-out to its creator [Dhaval Patel](https://www.linkedin.com/in/dhavalsays/).
+ - [Potato Disease Classification] - This project wouldn't have been possible without your guidance. You saved my enormous amount of time in building this project . A huge shout-out to [Dhaval Patel](https://www.linkedin.com/in/dhavalsays/).
