@@ -18,8 +18,6 @@
 
 
 ## Demo
-Link: https://user-images.githubusercontent.com/22980959/181022984-dfb79f1b-9681-4b91-bcb9-5db04da26fe6.mp4
-
 
 https://user-images.githubusercontent.com/22980959/181686111-7d2422c9-cb7d-49b1-9c99-2435bc9659bc.mp4
 
