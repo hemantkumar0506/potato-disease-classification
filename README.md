@@ -20,6 +20,10 @@
 ## Demo
 Link: https://user-images.githubusercontent.com/22980959/181022984-dfb79f1b-9681-4b91-bcb9-5db04da26fe6.mp4
 
+![Web Demo](potato -disease-classifiaction.mp4)
+
+![App Demo](potatodiesease_app.mp4)
+
 ## Overview
 This is a potato disease classification app which predicts potato leaf disease.
 
