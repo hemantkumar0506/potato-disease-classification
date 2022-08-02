@@ -1,0 +1,15 @@
+Num GPUs Available:  1
+/device:GPU:0
+Found 2152 files belonging to 3 classes.
+(32, 256, 256, 3)
+<bound method _EagerTensorBase.numpy of <tf.Tensor: shape=(32,), dtype=int32, numpy=
+array([1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1,
+       0, 0, 1, 0, 0, 1, 1, 2, 0, 0])>>
+lenght of the dataset: 68
+lenght of the training set: 54
+lenght of the test set: 14
+lenght of the validation set: 6
+lenght of the test set: 8
+lenght of the training set: 54
+lenght of the validation set: 6
+lenght of the test set: 8
